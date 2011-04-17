@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD4DEA80135AD038009BA68F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4DEA7F135AD038009BA68F /* Cocoa.framework */; };
+		CD4DEA8A135AD038009BA68F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4DEA88135AD038009BA68F /* InfoPlist.strings */; };
+		CD4DEA8D135AD038009BA68F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4DEA8C135AD038009BA68F /* main.m */; };
+		CD4DEA90135AD038009BA68F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD4DEA8E135AD038009BA68F /* Credits.rtf */; };
+		CD4DEA93135AD038009BA68F /* InternetStatusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4DEA92135AD038009BA68F /* InternetStatusAppDelegate.m */; };
+		CD4DEA96135AD038009BA68F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4DEA94135AD038009BA68F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD4DEA7B135AD038009BA68F /* InternetStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4DEA7F135AD038009BA68F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD4DEA82135AD038009BA68F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CD4DEA83135AD038009BA68F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD4DEA84135AD038009BA68F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD4DEA87135AD038009BA68F /* InternetStatus-Info.plist */ = {isa = PBXFileReference; path = "InternetStatus-Info.plist"; sourceTree = "<group>"; };
+		CD4DEA89135AD038009BA68F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD4DEA8B135AD038009BA68F /* InternetStatus-Prefix.pch */ = {isa = PBXFileReference; path = "InternetStatus-Prefix.pch"; sourceTree = "<group>"; };
+		CD4DEA8C135AD038009BA68F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD4DEA8F135AD038009BA68F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CD4DEA91135AD038009BA68F /* InternetStatusAppDelegate.h */ = {isa = PBXFileReference; path = InternetStatusAppDelegate.h; sourceTree = "<group>"; };
+		CD4DEA92135AD038009BA68F /* InternetStatusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InternetStatusAppDelegate.m; sourceTree = "<group>"; };
+		CD4DEA95135AD038009BA68F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD4DEA78135AD038009BA68F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4DEA80135AD038009BA68F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD4DEA70135AD038009BA68F = {
+			isa = PBXGroup;
+			children = (
+				CD4DEA85135AD038009BA68F /* InternetStatus */,
+				CD4DEA7E135AD038009BA68F /* Frameworks */,
+				CD4DEA7C135AD038009BA68F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4DEA7C135AD038009BA68F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DEA7B135AD038009BA68F /* InternetStatus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4DEA7E135AD038009BA68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DEA7F135AD038009BA68F /* Cocoa.framework */,
+				CD4DEA81135AD038009BA68F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4DEA81135AD038009BA68F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DEA82135AD038009BA68F /* AppKit.framework */,
+				CD4DEA83135AD038009BA68F /* CoreData.framework */,
+				CD4DEA84135AD038009BA68F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CD4DEA85135AD038009BA68F /* InternetStatus */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DEA91135AD038009BA68F /* InternetStatusAppDelegate.h */,
+				CD4DEA92135AD038009BA68F /* InternetStatusAppDelegate.m */,
+				CD4DEA94135AD038009BA68F /* MainMenu.xib */,
+				CD4DEA86135AD038009BA68F /* Supporting Files */,
+			);
+			path = InternetStatus;
+			sourceTree = "<group>";
+		};
+		CD4DEA86135AD038009BA68F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD4DEA87135AD038009BA68F /* InternetStatus-Info.plist */,
+				CD4DEA88135AD038009BA68F /* InfoPlist.strings */,
+				CD4DEA8B135AD038009BA68F /* InternetStatus-Prefix.pch */,
+				CD4DEA8C135AD038009BA68F /* main.m */,
+				CD4DEA8E135AD038009BA68F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD4DEA7A135AD038009BA68F /* InternetStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4DEA99135AD038009BA68F /* Build configuration list for PBXNativeTarget "InternetStatus" */;
+			buildPhases = (
+				CD4DEA77135AD038009BA68F /* Sources */,
+				CD4DEA78135AD038009BA68F /* Frameworks */,
+				CD4DEA79135AD038009BA68F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternetStatus;
+			productName = InternetStatus;
+			productReference = CD4DEA7B135AD038009BA68F /* InternetStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4DEA72135AD038009BA68F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Applified Ideas AB";
+			};
+			buildConfigurationList = CD4DEA75135AD038009BA68F /* Build configuration list for PBXProject "InternetStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD4DEA70135AD038009BA68F;
+			productRefGroup = CD4DEA7C135AD038009BA68F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD4DEA7A135AD038009BA68F /* InternetStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD4DEA79135AD038009BA68F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4DEA8A135AD038009BA68F /* InfoPlist.strings in Resources */,
+				CD4DEA90135AD038009BA68F /* Credits.rtf in Resources */,
+				CD4DEA96135AD038009BA68F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD4DEA77135AD038009BA68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4DEA8D135AD038009BA68F /* main.m in Sources */,
+				CD4DEA93135AD038009BA68F /* InternetStatusAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD4DEA88135AD038009BA68F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4DEA89135AD038009BA68F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD4DEA8E135AD038009BA68F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4DEA8F135AD038009BA68F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CD4DEA94135AD038009BA68F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4DEA95135AD038009BA68F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4DEA97135AD038009BA68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD4DEA98135AD038009BA68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD4DEA9A135AD038009BA68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InternetStatus/InternetStatus-Prefix.pch";
+				INFOPLIST_FILE = "InternetStatus/InternetStatus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD4DEA9B135AD038009BA68F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InternetStatus/InternetStatus-Prefix.pch";
+				INFOPLIST_FILE = "InternetStatus/InternetStatus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD4DEA75135AD038009BA68F /* Build configuration list for PBXProject "InternetStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4DEA97135AD038009BA68F /* Debug */,
+				CD4DEA98135AD038009BA68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4DEA99135AD038009BA68F /* Build configuration list for PBXNativeTarget "InternetStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4DEA9A135AD038009BA68F /* Debug */,
+				CD4DEA9B135AD038009BA68F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4DEA72135AD038009BA68F /* Project object */;
+}
