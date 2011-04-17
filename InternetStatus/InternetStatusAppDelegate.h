@@ -7,10 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Reachability.h"
 
 @interface InternetStatusAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    IBOutlet NSImageView* status;
+    IBOutlet NSTextField* statusText;
+    
+    Reachability* internetReach;
 }
 
 @property (assign) IBOutlet NSWindow *window;

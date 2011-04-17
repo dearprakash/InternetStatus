@@ -13,6 +13,12 @@
 		CD4DEA90135AD038009BA68F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CD4DEA8E135AD038009BA68F /* Credits.rtf */; };
 		CD4DEA93135AD038009BA68F /* InternetStatusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4DEA92135AD038009BA68F /* InternetStatusAppDelegate.m */; };
 		CD4DEA96135AD038009BA68F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4DEA94135AD038009BA68F /* MainMenu.xib */; };
+		CD4DEA9E135AD08E009BA68F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4DEA9D135AD08E009BA68F /* Reachability.m */; };
+		CD4DEAA0135AD0C6009BA68F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4DEA9F135AD0C6009BA68F /* SystemConfiguration.framework */; };
+		CD4DEAAD135AD9AB009BA68F /* stop-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4DEAAA135AD9AB009BA68F /* stop-32.png */; };
+		CD4DEAAE135AD9AB009BA68F /* WWAN5.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4DEAAB135AD9AB009BA68F /* WWAN5.png */; };
+		CD4DEAAF135AD9AB009BA68F /* Airport.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4DEAAC135AD9AB009BA68F /* Airport.png */; };
+		CD4DEAB4135AEFE2009BA68F /* InternetStatus.icns in Resources */ = {isa = PBXBuildFile; fileRef = CD4DEAB3135AEFE2009BA68F /* InternetStatus.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +27,21 @@
 		CD4DEA82135AD038009BA68F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CD4DEA83135AD038009BA68F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CD4DEA84135AD038009BA68F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CD4DEA87135AD038009BA68F /* InternetStatus-Info.plist */ = {isa = PBXFileReference; path = "InternetStatus-Info.plist"; sourceTree = "<group>"; };
+		CD4DEA87135AD038009BA68F /* InternetStatus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InternetStatus-Info.plist"; sourceTree = "<group>"; };
 		CD4DEA89135AD038009BA68F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CD4DEA8B135AD038009BA68F /* InternetStatus-Prefix.pch */ = {isa = PBXFileReference; path = "InternetStatus-Prefix.pch"; sourceTree = "<group>"; };
+		CD4DEA8B135AD038009BA68F /* InternetStatus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InternetStatus-Prefix.pch"; sourceTree = "<group>"; };
 		CD4DEA8C135AD038009BA68F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD4DEA8F135AD038009BA68F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		CD4DEA91135AD038009BA68F /* InternetStatusAppDelegate.h */ = {isa = PBXFileReference; path = InternetStatusAppDelegate.h; sourceTree = "<group>"; };
+		CD4DEA91135AD038009BA68F /* InternetStatusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InternetStatusAppDelegate.h; sourceTree = "<group>"; };
 		CD4DEA92135AD038009BA68F /* InternetStatusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InternetStatusAppDelegate.m; sourceTree = "<group>"; };
 		CD4DEA95135AD038009BA68F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD4DEA9C135AD08E009BA68F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CD4DEA9D135AD08E009BA68F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CD4DEA9F135AD0C6009BA68F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CD4DEAAA135AD9AB009BA68F /* stop-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop-32.png"; sourceTree = "<group>"; };
+		CD4DEAAB135AD9AB009BA68F /* WWAN5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WWAN5.png; sourceTree = "<group>"; };
+		CD4DEAAC135AD9AB009BA68F /* Airport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Airport.png; sourceTree = "<group>"; };
+		CD4DEAB3135AEFE2009BA68F /* InternetStatus.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = InternetStatus.icns; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4DEAA0135AD0C6009BA68F /* SystemConfiguration.framework in Frameworks */,
 				CD4DEA80135AD038009BA68F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +77,7 @@
 		CD4DEA7E135AD038009BA68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD4DEA9F135AD0C6009BA68F /* SystemConfiguration.framework */,
 				CD4DEA7F135AD038009BA68F /* Cocoa.framework */,
 				CD4DEA81135AD038009BA68F /* Other Frameworks */,
 			);
@@ -82,6 +97,8 @@
 		CD4DEA85135AD038009BA68F /* InternetStatus */ = {
 			isa = PBXGroup;
 			children = (
+				CD4DEA9C135AD08E009BA68F /* Reachability.h */,
+				CD4DEA9D135AD08E009BA68F /* Reachability.m */,
 				CD4DEA91135AD038009BA68F /* InternetStatusAppDelegate.h */,
 				CD4DEA92135AD038009BA68F /* InternetStatusAppDelegate.m */,
 				CD4DEA94135AD038009BA68F /* MainMenu.xib */,
@@ -93,6 +110,10 @@
 		CD4DEA86135AD038009BA68F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD4DEAB3135AEFE2009BA68F /* InternetStatus.icns */,
+				CD4DEAAA135AD9AB009BA68F /* stop-32.png */,
+				CD4DEAAB135AD9AB009BA68F /* WWAN5.png */,
+				CD4DEAAC135AD9AB009BA68F /* Airport.png */,
 				CD4DEA87135AD038009BA68F /* InternetStatus-Info.plist */,
 				CD4DEA88135AD038009BA68F /* InfoPlist.strings */,
 				CD4DEA8B135AD038009BA68F /* InternetStatus-Prefix.pch */,
@@ -155,6 +176,10 @@
 				CD4DEA8A135AD038009BA68F /* InfoPlist.strings in Resources */,
 				CD4DEA90135AD038009BA68F /* Credits.rtf in Resources */,
 				CD4DEA96135AD038009BA68F /* MainMenu.xib in Resources */,
+				CD4DEAAD135AD9AB009BA68F /* stop-32.png in Resources */,
+				CD4DEAAE135AD9AB009BA68F /* WWAN5.png in Resources */,
+				CD4DEAAF135AD9AB009BA68F /* Airport.png in Resources */,
+				CD4DEAB4135AEFE2009BA68F /* InternetStatus.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +192,7 @@
 			files = (
 				CD4DEA8D135AD038009BA68F /* main.m in Sources */,
 				CD4DEA93135AD038009BA68F /* InternetStatusAppDelegate.m in Sources */,
+				CD4DEA9E135AD08E009BA68F /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
